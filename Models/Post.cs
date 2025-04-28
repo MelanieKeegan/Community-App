@@ -7,7 +7,7 @@ namespace CommunityAPI.Models
         [Column("id")] // Map to the lowercase column name in Supabase
         public int Id { get; set; }
         [Column("userid")]
-        public long UserId { get; set; }
+        public long UserId { get; set; }  // set to long to match the Supabase schema
         [Column("title")]
         public String Title { get; set; }
         [Column("content")]

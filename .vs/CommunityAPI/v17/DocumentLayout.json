@@ -58,8 +58,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-28T22:57:53.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:57:53.397Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-28T22:57:53.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:57:53.46Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Data\\CommunityDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:57:53.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:57:53.473Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "Controllers\\PostController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:57:53.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:57:53.484Z"
             },
             {
               "$type": "Document",
@@ -108,7 +104,7 @@
               "RelativeDocumentMoniker": "Models\\Post.cs",
               "ToolTip": "C:\\Users\\35385\\CA2_ComApp\\Community-App\\Models\\Post.cs",
               "RelativeToolTip": "Models\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T22:57:53.497Z",
               "EditorCaption": ""
@@ -123,8 +119,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T22:57:53.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:57:53.51Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-28T22:57:53.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T22:57:53.525Z"
             }
           ]
         }

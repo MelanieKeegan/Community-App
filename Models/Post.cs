@@ -1,14 +1,24 @@
-﻿namespace CommunityAPI.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace CommunityAPI.Models
 {
     public class Post
     {
+        [Column("id")] // Map to the lowercase column name in Supabase
         public int Id { get; set; }
-        public String UserId { get; set; }
+        [Column("userid")]
+        public long UserId { get; set; }
+        [Column("title")]
         public String Title { get; set; }
+        [Column("content")]
         public String Content { get; set; }
+        [Column("category")] // Map to the lowercase column name in Supabase
         public String Category { get; set; }
+        [Column("location")]
         public String Location { get; set; }
+        [Column("contactinfo")] // Map to the lowercase column name in Supabase
         public String ContactInfo { get; set; }
-        public String CreatedAt { get; set; }
+        [Column("createdat")]
+        public DateTimeOffset CreatedAt { get; set; } // Use DateTimeOffset for timesta
     }
 }

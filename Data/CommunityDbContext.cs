@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using CommunityAPI.Models;
+using CommunityAPI.Models.CommunityAPI.Models;
 
 namespace CommunityAPI.Data
 {
@@ -8,7 +9,7 @@ namespace CommunityAPI.Data
         public CommunityDbContext(DbContextOptions<CommunityDbContext> options) : base(options) { }
 
         public DbSet<Post> Post { get; set; }
-        /*public DbSet<User> Users { get; set; }*/
-
+        public DbSet<User> Users { get; set; }
     }
 }
+

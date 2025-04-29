@@ -1,4 +1,5 @@
-﻿namespace CommunityAPI.Models
+﻿using CommunityAPI.Enums;
+namespace CommunityAPI.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;
@@ -24,7 +25,7 @@
 
             // this column is nullable in your schema; drop [Required] if you want to allow nulls
             [Column("role")]
-            public string Role { get; set; }
+            public Role Role { get; set; }
 
             [Column("created_at")]
             public DateTimeOffset CreatedAt { get; set; }

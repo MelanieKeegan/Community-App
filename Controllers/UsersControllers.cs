@@ -58,11 +58,6 @@ namespace CommunityAPI.Controllers
         [HttpPut("{id:long}")]
         public async Task<IActionResult> UpdateUser(long id, [FromBody] User updatedUser)
         {
-            if (id != updatedUser.Id)
-            {
-                return BadRequest(new { Message = "ID in the URL does not match ID in the body." });
-            }
-
             var user = await _ctx.Users.FindAsync(id);
             if (user == null)
             {

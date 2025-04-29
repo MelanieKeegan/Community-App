@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CommunityAPI.Migrations
 {
     [DbContext(typeof(CommunityDbContext))]
-    [Migration("20250429171139_InitialMigration")]
+    [Migration("20250429174635_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -81,8 +81,8 @@ namespace CommunityAPI.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("content");
 
-                    b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("datetimeoffset")
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2")
                         .HasColumnName("createdat");
 
                     b.Property<string>("Location")

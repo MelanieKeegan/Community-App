@@ -19,6 +19,6 @@ namespace CommunityAPI.Models
         [Column("contactinfo")] // Map to the lowercase column name in Supabase
         public String ContactInfo { get; set; }
         [Column("createdat")]
-        public DateTimeOffset CreatedAt { get; set; } // Use DateTimeOffset for timesta
+        public DateTime CreatedAt { get; set; } // Changed from DateTimeOffset to DateTime for SQL Server compatibility
     }
 }

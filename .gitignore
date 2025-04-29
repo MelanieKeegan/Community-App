@@ -1,3 +1,8 @@
 ".vs/" 
 obj/ 
 bin/ 
+# Visual Studio cache & user settings
+.vs/
+*.suo
+*.cache
+

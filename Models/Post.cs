@@ -1,11 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CommunityAPI.Models
 {
     public class Post
     {
+        [Key]
         [Column("id")] // Map to the lowercase column name in Supabase
-        public int Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public long Id { get; set; }
         [Column("userid")]
         public long UserId { get; set; }  // set to long to match the Supabase schema
         [Column("title")]
